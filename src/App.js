@@ -33,7 +33,9 @@ function App() {
               <Route
                 path="new"
                 element={<New inputs={productInputs} title="Add New Department" />}
-              />
+              /> 
+  
+
             </Route>
           </Route>
         </Routes>
